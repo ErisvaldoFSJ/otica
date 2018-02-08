@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body, textarea, input{
+	margin: 0;
+	font-family: "Raleway", "Arial", sans-serif;
+}
+nav{
+	color: #95a5a6;
+	font-size: .8rem;
+	float: right;
+	margin-top: 5rem;
+
+}
+nav a{
+	color: #95a5a6;
+	text-decoration: none;
+
+}
+textarea{
+	font-family: sans-serif;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.barraSuperior{
+	border-bottom: 1px solid #bdc3c7;
+	color: #95a5a6;
+	padding-top: .7rem;
+	padding-bottom: .7rem;
+	font-size: .9rem;
+}
+.containner{
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+/* padding: ^ > \/ < */
+.btnOndeestamos, .metadeFale input[type=submit]{
+	border: none;
+	background-color: #e74c3c;
+	color: white;
+	padding: .8rem 2rem;
+	border-radius: 0.2rem;
+	margin-left: 2rem;
+	text-decoration: none;
+	font-size: .8rem;
+}
+.section01{
+	height: 30rem;
+	color: white;
+	background-image: url(../img/Home.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgb(164,164,164);
+}
+.section01 .titulo{
+	font-size: 2rem;
+	padding-top: 5rem;
+}
+.section01 p{
+	font-size: 1.5rem;
+	padding-bottom: 3rem;
+	line-height: 120%;
+}
+.section01 .btnOndeestamos{
+	margin-left: 0rem;
+}
+.section02{
+	border-bottom: 1px solid #bdc3c7;
+}
+.section02 p{
+	font-size: 2.2rem;
+	text-align: center;
+
+}
+.section02 img{
+	width: 100%;
+	margin-bottom: 3rem;
+}
+.section03 {
+	background-color: rgb(239,243,249);
+	height: 664px;
+	background-image: url(../img/Home2.png);
+	background-position: right;
+	background-repeat: no-repeat;
+
+}
+.section03 p{
+	font-size: 3rem;
+	list-style: 150%;
+	color: rgb(102,102,102);
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+.sectionFaleOnde{
+	height: 25rem;
+	background-color: #ecf0f1;
+	margin-top: 10px;
+}
+.metade{
+	width: 43%;
+	float: left;
+	background-color: rgb(239,243,249);
+	height: 664px;
+}
+
+.metadeFale{
+	width: 50%;
+	float: left;
+	line-height: 150%;
+	padding-top: 3.125rem;
+	color: rgb(120,120,120);
+}
+.metadeFale img{
+	width: 2.1875rem;
+}
+
+.metadeFale label{
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+}
+.metadeFale form{
+	line-height: 250%;
+}
+.metadeFale form input[type = text], textarea, .modal input[type=text]{
+	border: none;
+	border-bottom: 1px solid lightgray;
+	width: 70%;
+	padding: .5rem;
+}
+.metadeFale textarea{
+	min-height: 6.25rem;
+}
+.metadeFale input[type=submit]{
+	float: right;
+	margin-right: 10px;
+	margin-top: -20px;
+}
+
+.metadeFale div, address{
+	margin-left: 10px;
+}
+.direitos{
+	background-color: #e74c3c;
+	color: white;
+	text-align: center;
+	padding-top: 2.8125rem;
+	padding-bottom: 2.8125rem;
+}
+.diretos a{
+	color: white;
+}
+
+.umterco{
+	padding-bottom: 30px;
+	padding-top: 30px;
+	width: 30%;
+	float: left;
+	margin-left: 2%;
+}
+.umterco, .umterco a{
+	color: rgb(136,136,136);
+}
+
+.umterco .logo{
+	width: 100%;
+}
+
+.umterco img{
+	width: 30px;
+}
+.umterco p{
+
+}
+
+.modal{
+	display: none;
+	position: fixed;
+	width: 400px;
+	height: 200px;
+	background-color: white;
+	top:50%;
+	margin-top: -100px;
+	left: 50%;
+	margin-left: -200px;
+	padding:30px;
+	border-radius: 4px;
+}
+.modal input[type=text]{
+	width: 95%;
+}
+
+.modal input[type=submit]{
+	margin-top: 0px;
+}
+.modal a{
+	float: right;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+span.nao_valido{
+	color: red;
+	display: none;
+}
+
+input.nao_valido, textarea.nao_valido{
+	border-bottom: 1px solid red !important;
+}
+.texto{
+	color: gray;
+	font-size: 12px;
+	float: right;
+	margin-right: 10px;
+	margin-top: -20px;
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	.metade{
+		width: 30%;
+		float: left;
+		background-color: rgb(239,243,249);
+		height: 664px;
+	}
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	.metade{
+		width: 27%;
+		float: left;
+		background-color: rgb(239,243,249);
+		height: 664px;
+	}
+}
+
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	.metade{
+		width: 27%;
+		float: left;
+		background-color: rgb(239,243,249);
+		height: 664px;
+	}
+}
